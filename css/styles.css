@@ -1,32 +1,51 @@
 body {
   font-family: 'Oxygen', sans-serif;
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+.top-container {
+  background-color: #FFFFFF;
+}
 .navbar-wrapper {
   position: relative;
   z-index: 15;
 }
-
 .featurette-divider {
-  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0;
 }
 
 @media (min-width: 768px) {
-
+  body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #800080;
+  }
+  .full-title {
+    display: inline;
+  }
+  .small-title {
+    display: none;
+  }
   .navbar-wrapper {
     margin-top: 20px;
   }
-
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
-
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
+}
 
+@media (max-width: 768px) {
+  #myCarousel {
+    display: none;
+  }
+  .full-title {
+    display: none;
+  }
+  .small-title {
+    display: inline;
+  }
 }
