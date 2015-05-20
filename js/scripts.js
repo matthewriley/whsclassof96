@@ -6,6 +6,16 @@ var addToHomeConfig = {
 	touchIcon: true
 };
 
+window.addEventListener('load', function() {
+	navigator.serviceWorker.register('js/service-worker.js', { scope: './' })
+		.then(function(r) {
+			//
+		})
+		.catch(function(e) {
+			//
+		});
+});
+
 (function ($) {
 	"use strict";
 	$('#myCarousel').carousel({
