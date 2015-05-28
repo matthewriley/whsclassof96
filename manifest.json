@@ -2,15 +2,15 @@
     "short_name": "WHS 96",
     "name": "WHS Class of 96 Reunion App",
     "icons": [{
-        "src": "launcher-icon-2x.png",
+        "src": "img/androidx96.png",
         "sizes": "96x96",
         "type": "image/png"
     }, {
-        "src": "img/apple-touch-icon-144-precomposed.png",
+        "src": "img/androidx144.png",
         "sizes": "144x144",
         "type": "image/png"
     }, {
-        "src": "launcher-icon-4x.png",
+        "src": "img/androidx192.png",
         "sizes": "192x192",
         "type": "image/png"
     }],
